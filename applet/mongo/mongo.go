@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/boxgo/kit/logger"
-	"github.com/boxgo/kit/mongo"
+	"github.com/boxgo/logger"
+	"github.com/boxgo/mongo"
 	"github.com/globalsign/mgo/bson"
 )
 
