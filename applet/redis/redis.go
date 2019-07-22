@@ -22,7 +22,7 @@ type (
 	RedisTokenStore struct {
 		name     string
 		redis    *redis.Redis
-		OriginID string `json:"originId"`
+		OriginID string `config:"originId"`
 	}
 )
 

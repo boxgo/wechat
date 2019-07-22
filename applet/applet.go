@@ -12,13 +12,13 @@ type (
 	Applet struct {
 		name string
 
-		AppID       string `json:"appId"`
-		AppSecret   string `json:"appSecret"`
-		Token       string `json:"token"`
-		AesKey      string `json:"aesKey"`
-		APIDomain   string `json:"apiDomain"`
-		APIBasePath string `json:"apiBasePath"`
-		OriginID    string `json:"originId"`
+		AppID       string `config:"appId"`
+		AppSecret   string `config:"appSecret"`
+		Token       string `config:"token"`
+		AesKey      string `config:"aesKey"`
+		APIDomain   string `config:"apiDomain"`
+		APIBasePath string `config:"apiBasePath"`
+		OriginID    string `config:"originId"`
 
 		*applet.Applet
 		tokenStore api.WechatTokenStore

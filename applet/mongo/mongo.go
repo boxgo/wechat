@@ -15,9 +15,9 @@ type (
 		name  string
 		mongo *mongo.Mongo
 
-		OriginID   string `json:"originId"`
-		DB         string `json:"db"`
-		Collection string `json:"collection"`
+		OriginID   string `config:"originId"`
+		DB         string `config:"db"`
+		Collection string `config:"collection"`
 	}
 
 	// wechatToken token db
