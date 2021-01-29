@@ -3,8 +3,8 @@ package applet
 import (
 	"context"
 
-	"github.com/BiteBit/applet"
-	"github.com/BiteBit/applet/api"
+	"github.com/amazing-gao/applet"
+	"github.com/amazing-gao/applet/api"
 )
 
 type (
